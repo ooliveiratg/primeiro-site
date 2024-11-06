@@ -1,0 +1,67 @@
+body{
+    background: black;
+    color: white;
+    margin: 0px;
+    font-family: "Bona Nova SC", serif;
+    margin-bottom: 100px;
+}
+header{
+
+border-bottom: 1px solid rgb(234, 232, 222);
+padding: 20px;
+height: 40px;
+font-size: 32px;
+}
+
+.chamada{
+    
+    background: rgb(43, 10, 10);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+.texto{
+    margin-right: 5%;
+   
+    
+   
+}
+h1{
+   
+    font-size: 40px;
+
+}
+p{
+    width: 700px;
+    font-size: 20px;
+}
+img{
+    height: 200px;
+    
+}
+
+.imagem-videos{
+    display: flex;
+    overflow-x:auto ;
+    gap: 10px;
+}
+.categoria{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.imagem-videos img{
+    opacity: 0.6;
+}
+
+.imagem-videos img:hover{
+
+    opacity: 1.0;
+    border: 1px solid rgb(47, 57, 78) ;
+}
+
+.categoria h2{
+    color:cornflowerblue;
+}
